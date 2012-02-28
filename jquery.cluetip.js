@@ -269,7 +269,7 @@
       if (opts.hoverClass) {
         $link.addClass(opts.hoverClass);
       }
-      linkTop = posY = $link.offset().top;
+      linkTop = posY = event.pageY;
       linkLeft = $link.offset().left;
 
       // FIX: (bug 4412)
